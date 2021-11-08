@@ -1,0 +1,23 @@
+.body {
+    display: grid;
+    flex-direction: row-reverse;
+    font-size: 24px;
+}
+
+
+
+.header {
+    text-align: center;
+    &__list {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+.box {
+    color: green;
+    font-size: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
